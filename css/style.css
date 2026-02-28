@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif; /* Rasmdagiga o'xshash shrift */
+}
+
+body {
+    background-color: #ffffff;
+    padding: 50px 20px;
+}
+
+.timeline-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Markaziy vertikal chiziq */
+.timeline-line {
+    position: absolute;
+    width: 2px;
+    background-color: #000;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    width: 50%;
+    margin-bottom: 60px;
+    position: relative;
+    padding: 20px 40px;
+}
+
+/* Nuqta (Timeline o'rtasidagi) */
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    z-index: 2;
+}
+
+/* Chap tomondagi elementlar */
+.left {
+    left: 0;
+    text-align: right;
+}
+
+.left .dot {
+    right: -6px;
+}
+
+/* O'ng tomondagi elementlar */
+.right {
+    left: 50%;
+    text-align: left;
+}
+
+.right .dot {
+    left: -6px;
+}
+
+/* Matnlar stili */
+.date {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #111;
+    margin-bottom: 5px;
+}
+
+.content h3 {
+    font-size: 18px;
+    color: #444;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Taglar (Ko'nikmalar) */
+.tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.left .tags {
+    justify-content: flex-end;
+}
+
+.tags span {
+    padding: 6px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #555;
+    background-color: #f9f9f9;
+}
+
+/* Mobil moslashuvchanlik */
+@media (max-width: 768px) {
+    .timeline-line {
+        left: 20px;
+    }
+    .timeline-item {
+        width: 100%;
+        left: 0 !important;
+        text-align: left !important;
+        padding-left: 45px;
+    }
+    .dot {
+        left: 14px !important;
+    }
+    .left .tags {
+        justify-content: flex-start;
+    }
+}
