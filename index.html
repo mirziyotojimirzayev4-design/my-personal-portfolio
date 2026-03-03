@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Bootstrap -->
-    <!-- <link rel="stylesheet" href="/bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="/bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <!-- /Bootstrap -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media.css">
@@ -14,7 +14,7 @@
     <header>
         <div class="container">
             <div class="header-wrapper">
-                <h2 class="header-brand">ALEX.DEV</h2>
+                <h2 class="header-brand">ALEX<span class="header-brand_span">.DEV</span></h2>
                 <nav>
                     <ul class="nav-list">
                         <li class="list-item">
@@ -31,7 +31,7 @@
                         </li>
                     </ul>
                 </nav>
-                <div>
+                <div class="header-link">
                     <img src="/images/Group 2.png" alt="github">
                     <img src="/images/LinkedIn.png" alt="linkedin">
                 </div>
@@ -39,33 +39,35 @@
         </div>
     </header>
     <main>
-        <section>
+        <section class="section-1">
             <div class="container">
                 <div class="section-wrapper__1">
-                    <h1 class="heading-1">Crafting Digital Experiences with Precision.</h1>
-                    <p class="paragraph">I'm Alex, a Senior Frontend Engineer specializing in building
-                    highly interactive, accessible, and performant web
+                    <h1 class="heading-1">Crafting Dig<span class="heading-1_span">ital</span><br> Experiences with <br> Precision.</h1>
+                    <p class="paragraph">I'm Alex, a Senior Frontend Engineer specializing in building <br>
+                    highly interactive, accessible, and performant web <br>
                     applications that users love.</p>
                     <div class="hero_btn-wrapper">
                         <button class="hero-btn">View Project</button>
-                        <button class="hero-btn_1">Download CV</button>
+                        <button class="hero-btn_1">Download CV
+                            <img src="/images/Download.png" alt="Download">
+                        </button>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-12 col-lg-6 col-xl-3">
-                            <h3>6+</h3>
-                            <span>Years Experience</span>
+                    <div class="row level">
+                        <div class="col-sm-6 col-xl-3">
+                            <h3 class="level-h3">6+</h3>
+                            <span class="years-experience">Years Experience</span>
                         </div>
-                        <div class="col-sm-12 col-lg-6 col-xl-3">
-                            <h3>40+</h3>
-                            <span>Projects Completed</span>
+                        <div class="col-sm-6 col-xl-3">
+                            <h3 class="level-h3">40+</h3>
+                            <span class="years-experience">Projects Completed</span>
                         </div>
-                        <div class="col-sm-12 col-lg-6 col-xl-3">
-                            <h3>25+</h3>
-                            <span>Happy Clients</span>
+                        <div class="col-sm-6 col-xl-3">
+                            <h3 class="level-h3">25+</h3>
+                            <span class="years-experience">Happy Clients</span>
                         </div>
-                        <div class="col-sm-12 col-lg-6 col-xl-3">
-                            <h3>10+</h3>
-                            <span>Open Source</span>
+                        <div class="col-sm-6 col-xl-3">
+                            <h3 class="level-h3">10+</h3>
+                            <span class="years-experience">Open Source</span>
                         </div>
                     </div>
                 </div>
@@ -77,8 +79,8 @@
                     <div class="section_2-headings">
                         <h3 class="section_2-h3">ABOUT ME</h3>
                         <h2 class="section_2-h2">
-                            Bridging the gap between
-                            design and technology.
+                            Bridging the gap between <br>
+                            <span class="section_2-h2-span">design</span> and <span class="section_2-h2-span">technology</span>.
                         </h2>
                         <p class="section_2-paragraph">
                             With over 6 years of experience in the industry, I've had the privilege
@@ -86,8 +88,8 @@
                             products that make an impact. My approach is centered around clean
                             code, user-centric design, and continuous learning.
                         </p>
-                        <div class="section-2_cards-wrapper">
-                            <div class="section_2-card">
+                        <div class="section-2_cards-wrapper row">
+                            <div class="section_2-card col-sm-6">
                                 <img src="/images/Group 16.png" alt="clean-code">
                                 <h3 class="card-h3">Clean Code</h3>
                                 <p class="card-paragraph">
@@ -95,28 +97,26 @@
                                     documented codebases.
                                 </p>
                             </div>
-                            <div class="section_2-card">
-                                <img src="/images/Group 16.png" alt="clean-code">
-                                <h3 class="card-h3">Clean Code</h3>
+                            <div class="section_2-card col-sm-6">
+                                <img src="/images/Group 17.png" alt="clean-code">
+                                <h3 class="card-h3">UI/UX Design
+                                </h3>
                                 <p class="card-paragraph">
-                                    Maintainable, scalable, and well-
-                                    documented codebases.
+                                    Eye for detail and deep understanding of design principles.
                                 </p>
                             </div>
-                            <div class="section_2-card">
-                                <img src="/images/Group 16.png" alt="clean-code">
-                                <h3 class="card-h3">Clean Code</h3>
+                            <div class="section_2-card col-sm-6">
+                                <img src="/images/Group 15.png" alt="clean-code">
+                                <h3 class="card-h3">Performance</h3>
                                 <p class="card-paragraph">
-                                    Maintainable, scalable, and well-
-                                    documented codebases.
+                                    Optimizing for speed and smooth user interactions.
                                 </p>
                             </div>
-                            <div class="section_2-card">
-                                <img src="/images/Group 16.png" alt="clean-code">
-                                <h3 class="card-h3">Clean Code</h3>
+                            <div class="section_2-card col-sm-6">
+                                <img src="/images/Group 19.png" alt="clean-code">
+                                <h3 class="card-h3">Architecture</h3>
                                 <p class="card-paragraph">
-                                    Maintainable, scalable, and well-
-                                    documented codebases.
+                                    Building robust frontend systems and workflows.
                                 </p>
                             </div>
                         </div>
@@ -138,8 +138,10 @@
                                 </div>
                                 <div class="react">
                                     Tailwind CSS
+                                </div><br>
                                 </div>
-                                <div class="react">
+                                <div class="react-wrapper">
+                                    <div class="react">
                                     Framer Motion
                                 </div>
                                 <div class="react">
@@ -147,33 +149,33 @@
                                 </div>
                                 </div>
                             </div>
-                            <div class="backend-wrapper">
-                                <h4 class="backend-h4">
+                            <div class="frontend-wrapper">
+                                <h4 class="frontend-h4">
                                     BACKEND</h4>
-                                <div class="node-wrapper">
-                                    <div class="node">
+                                <div class="react-wrapper">
+                                    <div class="react">
                                         Node.js
                                     </div>
-                                    <div class="node">
+                                    <div class="react">
                                         PostgreeSQL
                                     </div>
                                 </div>
                             </div>
-                            <div class="tools-wrapper">
-                                <h4 class="tools-h4">TOOLS</h4>
-                                <div class="git-wrapper">
-                                    <div class="git">
+                            <div class="frontend-wrapper">
+                                <h4 class="frontend-h4">TOOLS</h4>
+                                <div class="react-wrapper">
+                                    <div class="react">
                                         Git
                                     </div>
-                                    <div class="git">
+                                    <div class="react">
                                         Docker
                                     </div>
                                 </div>
                             </div>
-                            <div class="design-wrapper">
-                                <h4 class="design-h4">DESIGN</h4>
-                                <div class="figma-wrapper">
-                                    <div class="figma">
+                            <div class="frontend-wrapper">
+                                <h4 class="frontend-h4">DESIGN</h4>
+                                <div class="react-wrapper">
+                                    <div class="react">
                                         Figma
                                     </div>
                                 </div>
@@ -183,15 +185,16 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="section-3">
             <div class="container">
                 <div class="section-wrapper__3">
-                    <h4 class="section_3-wrapper">PORTFOLIO</h4>
+                    <h4 class="portfolio">PORTFOLIO</h4>
                     <div class="works-wrapper">
                         <h2 class="section_3-h2">Selected Works</h2>
-                        <p class="section_3-paragraph">A collection of projects that showcase my expertise in
-                        building complex web applications and interactive
+                        <p class="section_3-paragraph">A collection of projects that showcase my expertise in <br>
+                        building complex web applications and interactive <br>
                         experiences.</p>
+                        </div>
                         <div class="section_3-cards_wrapper">
                             <div class="section_3-cards">
                                 <img src="/images/Rectangle 19.png" alt="my-project">
@@ -245,7 +248,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </section>
