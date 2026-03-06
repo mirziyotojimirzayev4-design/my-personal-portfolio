@@ -1,0 +1,266 @@
+@media (max-width:1200px) {
+    .section_3-cards {
+        margin-bottom: 20px;
+    }
+
+    .works-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .section_3-paragraph {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:1190px) {
+    .section_3-cards_wrapper {
+        gap: 30px;
+    }
+}
+
+@media (max-width:1180px) {
+    .section_2-h2 {
+        font-size: 35px;
+    }
+
+    .section_2-paragraph {
+        font-size: 15px;
+    }
+
+    .section-wrapper__2 {
+        flex-wrap: wrap;
+    }
+
+    .section_5-p {
+        font-size: 18px;
+    }
+
+    .section_5-h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:890px) {
+    .section_3-h2 {
+        font-size: 35px;
+    }
+
+    .footer-heading {
+        font-size: 50px;
+    }
+
+    .section_5-p {
+        font-size: 16px;
+    }
+
+    .section_5-h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:760px) {
+    .heading-1 {
+        font-size: 70px;
+    }
+
+    .paragraph {
+        font-size: 20px;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    .header-link {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .footer-headings-wapper {
+        flex-wrap: wrap;
+    }
+
+    .footer-navigation-wrapper {
+        gap: 100px;
+    }
+
+}
+
+@media (max-width:740px) {
+    .level-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .footer-heading {
+        font-size: 40px;
+    }
+
+    .footer-navigation_h4 {
+        font-size: 16px;
+    }
+
+    .about {
+        font-size: 14px;
+    }
+
+    .level-h3 {
+        font-size: 25px;
+    }
+
+    .level-wrapper {
+        gap: 50px;
+    }
+
+    .years-experience {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:640px) {
+    .heading-1 {
+        font-size: 60px;
+    }
+
+    .section_4-h2 {
+        font-size: 40px;
+    }
+
+    .links-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links {
+        font-size: 12px;
+        padding-right: 100px;
+    }
+
+    .career-path_cards-h3 {
+        font-size: 20px;
+    }
+
+    .career-path_cards-p {
+        font-size: 14px;
+    }
+
+    .pinned {
+        left: -30px;
+    }
+}
+
+@media (max-width:620px) {
+    .paragraph {
+        font-size: 18px;
+    }
+
+    .career-path_cards {
+        width: 400px;
+        height: 200px;
+    }
+
+    .career-path_cards-system {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:570px) {
+    .heading-1 {
+        font-size: 50px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+    }
+
+    .react {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:540px) {
+    .section_2-h3 {
+        font-size: 15px;
+    }
+
+    .section_2-h2 {
+        font-size: 25px;
+    }
+
+    .section_2-paragraph {
+        font-size: 12px;
+    }
+
+    .group-16 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .card-h3 {
+        font-size: 12px;
+    }
+
+    .card-paragraph {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .heading-1 {
+        font-size: 40px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+    }
+
+    .section_4-h2 {
+        font-size: 30px;
+    }
+
+    .pinned {
+        width: 10px;
+        height: 10px;
+        left: -20px;
+    }
+
+    .pinned-1 {
+        width: 10px;
+        height: 10px;
+        right: -10px;
+    }
+}
+
+@media (max-width:440px) {
+    .career-path_cards-p {
+        font-size: 10px;
+    }
+
+    .section_4-h2 {
+        font-size: 25px;
+    }
+
+    .career-path_cards {
+        width: 300px;
+        height: 150px;
+    }
+
+    .hero-btn {
+        padding: 10px 30px;
+        font-size: 12px;
+    }
+
+    .hero-btn_1 {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .download {
+        width: 18px;
+        height: 18px;
+    }
+}

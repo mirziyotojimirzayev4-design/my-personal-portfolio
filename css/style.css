@@ -2,8 +2,7 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
     text-decoration: none;
     list-style-type: none;
 }
@@ -96,11 +95,16 @@ body {
     box-shadow: 0 0 2px 0;
 }
 
-.level {
-    box-shadow: 0 0 1px 0;
-    padding: 60px 0;
+.level-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 1px 0;
+    padding: 60px 0;
+}
+
+.burger-menu {
+    display: none;
 }
 
 .years-experience {
@@ -217,6 +221,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 200px;
+    overflow-x: auto;
 }
 
 .portfolio {
@@ -452,4 +457,8 @@ body {
 
 .hr {
     color: #fff;
+}
+
+.section_3-cards_wrapper::-webkit-scrollbar {
+    display: none;
 }
