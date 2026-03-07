@@ -301,6 +301,12 @@
     }
 }
 
+@media (max-width:477px) {
+    .years-experience_1 {
+        margin-right: 50px;
+    }
+}
+
 @media (max-width:440px) {
     .career-path_cards-p {
         font-size: 10px;
